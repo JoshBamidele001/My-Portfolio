@@ -557,11 +557,12 @@ margin-bottom: 3rem;
         width: 18rem;
         flex-direction: column;
         gap: 0;
+        display: none;
      }
 
      .nav_menu li {
         width: 100%;
-        height: 5.8rem;
+        height: 5.0rem;
      }
 
      .nav_menu li a {
@@ -574,7 +575,7 @@ margin-bottom: 3rem;
      }
 
      .nav_menu li a:hover{
-        background: var(--color-bg2);
+        background: var(--color-bg);
         color: var(--color-white);
      }
 
