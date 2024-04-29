@@ -137,7 +137,7 @@ h4{
  }
 
  .nav_menu a:hover{
-    color: var(--color-bg2);
+    color: var(--color-bg);
  }
 
  /* ============HEADER =============== */
@@ -212,13 +212,13 @@ h4{
         content: "WEB DESIGNER"
     }
     41%,60%{
-        content: "PHOTOGRAPHER"
+        content: "PROGRAMMER"
     }
     61%,80%{
-        content: "YOUTUBER"
+        content: "FREELANCER"
     }
     81%,100%{
-        content: "TECH-ENTHUSTIAR"
+        content: "TECH-TUTOR"
     }
 }
 
@@ -563,6 +563,39 @@ margin-bottom: 3rem;
      .nav_menu li {
         width: 100%;
         height: 5.0rem;
+        animation: animateNavItems 400ms linear forwards;
+        transform-origin: top right;
+        opacity: 0;
+     }
+
+     .nav_menu li:nth-child(2){
+        animation-delay: 200ms;
+     }
+
+     .nav_menu li:nth-child(3){
+        animation-delay: 400ms;
+     }
+     .nav_menu li:nth-child(3){
+        animation-delay: 600ms;
+     }
+     .nav_menu li:nth-child(4){
+        animation-delay: 800ms;
+     }
+     .nav_menu li:nth-child(5){
+        animation-delay: 1000ms;
+     }
+     .nav_menu li:nth-child(6){
+        animation-delay: 1200ms;
+     }
+
+     @keyframes animateNavItems {
+        0%{
+            transform: rotateZ(-90deg)
+        }
+        100% {
+            transform: rotateZ(0);
+            opacity: 1;
+        }
      }
 
      .nav_menu li a {
