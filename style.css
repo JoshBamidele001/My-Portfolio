@@ -157,7 +157,7 @@ h4{
     min-width: 280px;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
     flex-direction: column;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.771)), url("./images/bgg.JPG");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.744), rgba(0, 0, 0, 0.877)), url("./images/bgg.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -212,13 +212,13 @@ h4{
         content: "WEB DESIGNER"
     }
     41%,60%{
-        content: "PROGRAMMER"
-    }
-    61%,80%{
         content: "FREELANCER"
     }
-    81%,100%{
+    61%,80%{
         content: "TECH-TUTOR"
+    }
+    81%,100%{
+        content: "PHOTOGRAHER"
     }
 }
 
@@ -417,6 +417,26 @@ margin-bottom: 3rem;
     background-color: var(--color-white);
     color: var(--color-black);
     border: transparent;
+}
+
+.gitp, .resumeFile{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+}
+
+.gitp a{
+    color: var(--color-warning);
+    text-decoration: underline;
+
+}
+
+.gitp a:hover{
+    color: var(--color-danger);
+}
+
+.resumeFile a{
+    color: var(--color-warning);
 }
 
 /* ============ CONTACTS ================ */
@@ -794,7 +814,10 @@ margin-bottom: 3rem;
     
     }
 
- 
+    .message_info input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
     
 .services_container{
