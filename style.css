@@ -200,7 +200,7 @@ h4{
 
 @keyframes cursor {
     to{
-        border-left:  2px solid var(--color-white);
+        border-left:  0px solid var(--color-white);
     }
 }
 
@@ -785,6 +785,7 @@ margin-bottom: 3rem;
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 0;
+        justify-items: center;
      }
 
      .header_left p{
@@ -804,13 +805,21 @@ margin-bottom: 3rem;
 
     .skills_container{
         grid-template-columns: 1fr;
+        text-align: center;
         
+        
+    }
+
+    .skills_left p{
+        margin: 2rem 1rem 2rem;
+        font-size: small;
     }
 
     .skills_right{
         display: grid;
         grid-template-columns: 1fr;
         gap: 1.3rem;
+        margin: 0 2rem 0 2rem;
     
     }
 
@@ -819,10 +828,41 @@ margin-bottom: 3rem;
         margin-bottom: 10px;
     }
 
+    .gitp, .resumeFile{
+        font-size: small;
+        margin: 0 2rem 0 2rem;
+    }
+
+  
+
     
 .services_container{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
 }
+
+.contacts_left li {
+    font-size: small;
+}
+
+.contact_form{
+    margin: 0 0.6rem 0 0.6rem;
+    text-align: center;
+}
+
+.contact_form input{
+    border-radius: 10px;
+}
+
+.contact_form textarea{
+    border-radius: 10px;
+}
+
+.contact_form textarea{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
 }
